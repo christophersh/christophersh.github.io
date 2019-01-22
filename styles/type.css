@@ -30,9 +30,9 @@
     
 }
 
-@media only screen and (max-width: s900px){
+@media only screen and (max-width: 600px){
 
-    a{
+    #myTabs a{
         font-size: 15px;        
     }
 
