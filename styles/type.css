@@ -43,7 +43,7 @@
 #profile {
     position: absolute; /* Position them relative to the browser window */
     top: 0;
-    width: 160px; /* Set a specific width */
+    width: 1000px; /* Set a specific width */
     height: 100%;
     text-decoration: none; /* Remove underline */
     color: white; /* White text color */
