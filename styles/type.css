@@ -43,14 +43,14 @@
 #profile {
     position: absolute; /* Position them relative to the browser window */
     top: 0;
-    width: 1000px; /* Set a specific width */
-    height: 100%;
+    width: 96%; /* Set a specific width */
+    height: 96%;
     text-decoration: none; /* Remove underline */
     color: white; /* White text color */
     border-radius: 20px 20px 20px 20px; /* Rounded corners on the top right and bottom right side */
     background-color: #808080;
     display: block;
-    margin-left: 15px;
+    margin: 1% 1% 1% 2%;
 }
 
 
