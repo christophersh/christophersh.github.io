@@ -4,25 +4,46 @@ body {
 }
 
 #main {
+    text-align: center;
+}
+
+#mitch_head {
+    position: absolute;
+    padding: 10px;
+    left:50%;
+    cursor: move;
+    z-index: 10;
+    width: 5%;
+}
+
+#ball {
+    position: absolute;
+    padding: 10px;
+    left:50%;
+    cursor: move;
+    z-index: 10;
+    background-color: rgb(18, 219, 186);
+    color: #fff;
+    text-align: center;
+}
+
     
-    color: #222020; /* black text color */
+.circleBase {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    width: 10px;
+    height: 10px;
+    background: #ccc;
 }
 
 
-.fa-igloo {
-    position: absolute; /* Position them relative to the browser window */
-    top: 40%;
+.fa-arrow-alt-circle-down {
+    position: sticky;
     font-size: 100px;
     display: inline-block;
-    left: 45%;
-    text-align: center;
     color: rgb(18, 219, 186);
 }
 
-.fa-snowman {
-    font-size: 100px;
-    color: rgb(18, 219, 186);
-}
 
 #Sidenav {
     position: fixed; /* Position them relative to the browser window */
@@ -36,6 +57,7 @@ body {
     border-radius: 0 20px 20px 0; /* Rounded corners on the top right and bottom right side */
     background-color: #222020;
     display: block;
+    text-align: left;
 }
   
 #Sidenav:hover {
